@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+.Header {
+  width: 100%;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-size: 34px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.text_1 {
+  align-self: flex-start;
+  padding-top: 80px;
+  padding-left: 8%;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #28293f;
+  font-size: 0.6em;
+}
+.Header_Image {
+  align-self: center;
+  position: absolute;
+  bottom: 0;
+}
+
+@media (min-width: 500px) {
+  .Header {
+    height: 250px;
+  }
+  .text_1 {
+    align-self: flex-start;
+    padding-top: 100px;
+    padding-left: 10%;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 700px) {
+  .Header {
+    height: 300px;
+  }
+  .text_1 {
+    align-self: flex-start;
+    padding-top: 150px;
+    padding-left: 8%;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 900px) {
+  .Header {
+    height: 350px;
+  }
+  .text_1 {
+    align-self: flex-start;
+    padding-top: 150px;
+    padding-left: 8%;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 1040px) {
+  .Header {
+    height: 400px;
+  }
+  .text_1 {
+    align-self: flex-start;
+    padding-top: 150px;
+    padding-left: 10%;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 1041px) {
+  .Header {
+    height: 700px;
+  }
+  .text_1 {
+    align-self: flex-start;
+    padding-top: 200px;
+    padding-left: 8%;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+
+    font-size: 2em;
+  }
+}

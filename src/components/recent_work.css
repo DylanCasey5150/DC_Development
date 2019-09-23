@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+.Recent_Work {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+}
+.Content_Header {
+  padding-top: 15%;
+  align-self: center;
+  font-family: "Playfair Display", serif;
+  color: #28293f;
+  font-size: 1em;
+}
+#work_list {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.list_1 {
+  align-self: center;
+  background-color: white;
+  height: 200px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 5%;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+.List_1_Image_Container {
+  background-color: white;
+  align-self: center;
+  padding-top: 5%;
+  width: 90%;
+  height: 70%;
+}
+.List_1_Caption {
+  align-self: center;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 2%;
+  color: #28293f;
+  font-weight: bold;
+}
+
+.list_2 {
+  align-self: center;
+  background-color: white;
+  height: 200px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 5%;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+.List_2_Image_Container {
+  background-color: white;
+  align-self: center;
+  padding-top: 5%;
+  width: 90%;
+  height: 70%;
+}
+.List_2_Caption {
+  align-self: center;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 2%;
+  color: #28293f;
+  font-weight: bold;
+}
+
+.list_3 {
+  align-self: center;
+  background-color: white;
+  height: 200px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 5%;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+.List_3_Image_Container {
+  background-color: white;
+  align-self: center;
+  padding-top: 5%;
+  width: 90%;
+  height: 70%;
+}
+.List_3_Caption {
+  align-self: center;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 2%;
+  color: #28293f;
+  font-weight: bold;
+}
+
+.Smooth_Scroll_Icon {
+  padding-top: 10%;
+}
+
+@media (min-width: 700px) {
+  .list_1 {
+    height: 300px;
+  }
+  .list_2 {
+    height: 300px;
+  }
+}
+@media (min-width: 900px) {
+  .list_1 {
+    height: 350px;
+  }
+  .list_2 {
+    height: 350px;
+  }
+}
+
+@media (min-width: 1040px) {
+  .list_1 {
+    height: 400px;
+  }
+  .list_2 {
+    height: 400px;
+  }
+  .List_1_Image_Container {
+    background-color: white;
+    align-self: center;
+    padding-top: 3%;
+    width: 90%;
+    height: 70%;
+  }
+  .List_2_Image_Container {
+    background-color: white;
+    align-self: center;
+    padding-top: 3%;
+    width: 90%;
+    height: 70%;
+  }
+}
+
+@media (min-width: 1041px) {
+  .Content_Header {
+    padding-top: 10%;
+    align-self: center;
+    font-family: "Playfair Display", serif;
+    font-size: 2em;
+  }
+
+  #work_list {
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10%;
+  }
+  .list_1 {
+    background-color: white;
+    height: 200px;
+    width: 30%;
+    display: flex;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  }
+  .List_1_Image_Container {
+    background-color: white;
+    align-self: center;
+
+    width: 90%;
+    height: 70%;
+  }
+  .List_1_Caption {
+    align-self: center;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 2%;
+  }
+
+  .list_2 {
+    background-color: white;
+    height: 200px;
+    width: 30%;
+    display: flex;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  }
+  .List_2_Image_Container {
+    background-color: white;
+    align-self: center;
+    width: 90%;
+    height: 70%;
+  }
+  .List_2_Caption {
+    align-self: center;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 2%;
+  }
+  .list_3 {
+    background-color: white;
+    height: 200px;
+    width: 30%;
+    display: flex;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  }
+  .List_3_Image_Container {
+    background-color: white;
+    align-self: center;
+    width: 90%;
+    height: 70%;
+  }
+  .List_3_Caption {
+    align-self: center;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 2%;
+  }
+
+  .Smooth_Scroll_Icon {
+    display: none;
+  }
+}

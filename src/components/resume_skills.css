@@ -1,0 +1,50 @@
+.resume_skills_container {
+  width: 100%;
+  font-size: 16px;
+}
+
+.skills_text_container {
+  padding-top: 10%;
+  padding-left: 10%;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.skills_header {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+.skills_list {
+  padding-top: 20px;
+  width: 70%;
+  text-align: justify;
+  font-family: "Playfair Display", serif;
+}
+
+.resume_text_container {
+  padding-left: 10%;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.resume_header {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+@media (min-width: 1440px) {
+  .skills_header {
+    font-size: 3em;
+  }
+  .skills_list {
+    font-size: 2em;
+  }
+
+  .resume_header {
+    font-size: 3em;
+    margin-top: 100px;
+  }
+}
