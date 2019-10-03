@@ -8,7 +8,7 @@ import Projects from "./components/projects.js";
 import About_Social_Medias from "./components/about_social_medias.js";
 import Resume_Skills from "./components/resume_skills.js";
 import Contact from "./components/contact.js";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
